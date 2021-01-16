@@ -1,7 +1,7 @@
 module.exports = {
-    '@tags': ['google'],
+    '@tags': ['google-browser'],
 
-    'Google advanced search: Harry Potter': (browser) => {
+    'Google advanced search using browser: Harry Potter': (browser) => {
         const mainQueryInputSelector = 'input[name="as_q"]'
         const mainQuery = 'Harry Potter'
 
